@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en" class="h-100">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <title>Professional Portfolio</title>
+
+    <link rel="stylesheet" type="text/css" href="styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!--styles-->
+
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+
+  </head>
+
+  <body class="bg-light d-flex flex-column h-100">
+
+    <!--Pages Navigation inspiration from https://getbootstrap.com/docs/5.0/components/navbar/#responsive-behaviors-->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html"><img src="img/logo.png" height="70px"; width="250px";></a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Introduction</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="gallery.html">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Resume.html">Resume</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="contact.html">Contact Information</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="process.html">Process</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="credits.html">Credits</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!-- Insert Bootstrap Jumbotron here -->
+<!-- https://getbootstrap.com/docs/5.0/examples/jumbotron/ -->
+<div id="jumbotron" class="p-5 mb-4 bg-light text-dark">
+  <div class="container py-5">
+    <h1 class="display-5">Professional Portfolio</h1>
+    <p class="col-md-8 fs-4">Welcome to my Professional Portfolio! Get to know me more about me through this website.</p>
+    <form action="index.html">
+      <button type="submit" class="btn btn-success btn-lg" href="contact.html" type="button">Connect</button>
+    </form>
+  </div>
+</div>
+
+<!--Other pages-->
+<div class="container-fluid padding">
+  <div class="row welcome text-center">
+    <div class="col-12">
+      <hr>
+      <h4 class="display-4">What I like to do in my spare time...</h4>
+    </div>
+    <hr>
+  </div>
+</div>
+
+<!--Cards-->
+    <div class="card-group">
+      <div class="card">
+        <img src="img/photography.jpg" class="card-img-top" alt="..." width="230" height="530">
+        <div class="card-body">
+          <h5 class="card-title">PHOTOGRAPHY</h5>
+          <p class="card-text">I enjoy travelling, so while I travel or find new places I like to document it to look back on later...</p>
+          <a href="gallery.html" class="btn btn-outline-primary">See Images</a>
+        </div>
+      </div>
+      <div class="card">
+        <!--img from https://unsplash.com/photos/VlXlW77swwY-->
+        <img src="img/painting.jpg" class="card-img-top" alt="..." width="230" height="530">
+
+
+
+          <div class="card-body">
+          <h5 class="card-title">ART</h5>
+          <p class="card-text">Ever since I was a child I was always creative, I enjoy drawing, painting, and all sorts of creative tasks!</p>
+          <a href="gallery.html" class="btn btn-outline-primary">Art Work</a>
+        </div>
+      </div>
+      <div class="card">
+        <!--image from https://unsplash.com/photos/APDMfLHZiRA-->
+        <img src="img/cooking.jpg" class="card-img-top" alt="..." width="230" height="530">
+        <div class="card-body">
+          <h5 class="card-title">COOKING</h5>
+          <p class="card-text">Over quarentine I got to fix up my cooking skills, now I enjoy making meals for my family and friends.</p>
+          <a href="gallery.html" class="btn btn-outline-primary">Foods</a>
+        </div>
+      </div>
+    </div>
+    <br>
+
+  <div class="container marketing">
+
+    <!-- START THE FEATURETTES -->
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Personal Biography</h2>
+        <hr>
+        <p class="lead">Hi, my name is Fatima! I am currently completing an Honours Bachelor of Arts in CCIT with a minor in Professional Writing & Communications and Ethics, Law and Society at the University of Toronto. </p>
+      </div>
+      <div class="col-md-5">
+          <img src="img/background.jpg" svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image" width="300" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 300x100" preserveAspectRatio="xMidYMid slice" focusable="false"><text x="50%"</svg>
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Some of my Skills</h2>
+        <hr>
+        <p class="lead">
+          <ul>
+            <li class="lead">Creativity</li>
+            <li class="lead">Independant and Team Work</li>
+            <li class="lead">Organization</li>
+          </ul>
+        </p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="img/book.jpg" svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%"</svg>
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Personal Development Plan</h2>
+        <hr>
+        <p class="lead">My plans for the future are to get experience in the field of communications through work and education and ultimately make a non-profit business one day!</p>
+      </div>
+      <div class="col-md-5">
+        <img src="img/graduation.jpg" svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image" width="300" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><text x="50%"</svg>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+</main>
+</div>
+</body>
+
+<!--Blurb on Main Page-->
+<div class="container-fluid padding">
+  <div class="row welcome text-center">
+    <div class="col-12">
+      <br>
+      <h1 class="display-4">A Little About Me!</h1>
+  </div>
+  <hr>
+  <div class="col-12">
+    <p class="lead">I was born and raised in Toronto, I have three other siblings who I love to death. Some of my hobbies include photography, drawing, cooking, and going for walks! I also enjoy learning, trying new things, and am always up for a challenge. I set goals for myself and work hard to achieve them, I am great at managing my time and look forward to each day and what it will bring for me. My goals for the future are to obtain experience in a field that will bring me new skills and knowledge, preferably in communications!</p>
+</div>
+
+<!-- Three columns of text below the carousel -->
+<hr>
+<br>
+<div class="row">
+  <div class="col-lg-4">
+<br>
+    <h2>Education</h2>
+    <p>I am currently studying Communications, Culture & Information Technology at the University of Toronto!</p>
+    <p><a class="btn btn-info" href="https://www.utm.utoronto.ca/iccit/programs/programs-offered/ccit-major">Learn More</a></p>
+  </div><!-- /.col-lg-4 -->
+  <div class="col-lg-4">
+
+    <h2>Work</h2>
+    <p>I am currently working with an NGO called Girls-E-Mentorship as a Communications Associate!</p>
+    <p><a class="btn btn-info" href="https://www.girlsementorship.com/">Link to Website</a></p>
+  </div><!-- /.col-lg-4 -->
+  <div class="col-lg-4">
+
+    <h2>Volunteering</h2>
+    <p>During the past few years, I volunteered as a assistant teacher in my community center.</p>
+    <p><a class="btn btn-info" href="https://www.facebook.com/LadyFatimah.org/">View details</a></p>
+  </div><!-- /.col-lg-4 -->
+</div><!-- /.row -->
+
+
+
+<!--Social media-->
+<br>
+<div class="container-fluid padding">
+  <div class="row text-center padding">
+    <div class="col-12">
+    </div>
+  </div>
+  <hr>
+      <h2>Connect with me!</h2>
+    </div>
+      <style>
+      .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 70px;
+        text-align: center;
+        text-decoration: none;
+        margin: 40px 50px 50px 250px;
+        display: inline-block;
+      }
+
+      .fa:hover {
+          opacity: 0.7;
+      }
+
+      .fa-facebook {
+        background: #3B5998;
+        color: white;
+        border-radius: 50%;
+      }
+
+      .fa-linkedin {
+        background: #0e76a8;
+        color: white;
+        border-radius: 50%;
+      }
+
+      .fa-instagram {
+        background: #E1306C;
+        color: white;
+        border-radius: 50%;
+      }
+
+      </style>
+      </head>
+      <body>
+
+      <!-- Add font awesome icons -->
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-linkedin"></a>
+      <a href="#" class="fa fa-instagram"></a>
+      <hr class="light">
+
+      <!--footer-->
+      <footer>
+        <div class="container-fluid padding">
+          <div class="row text-center">
+            <div class="col-md-4">
+              <hr class="light">
+              <h5>Connect</h5>
+              <hr class="light">
+              <p>fatimaz.zaidi@mail.utoronto.ca</p>
+              <p>647-528-6786</p>
+              <p>1152 Barr Crescent, Milton, ON</p>
+              <hr class="light">
+            </div>
+          </div>
+        </div>
+
+
+
+  </body>
+</html>
